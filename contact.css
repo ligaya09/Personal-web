@@ -1,0 +1,174 @@
+body {
+    background-color: #fff8f9;
+    display: block;
+    margin: auto;
+}
+ 
+
+
+.footer {
+  background-color:#FFF0F3;
+  padding: 0;
+  border: 1px solid #D898A4;
+  font-size: 50%;
+  text-align: center;
+}
+
+.footer {
+	font-size: 90px;
+  	font-family:'perpetua', serif;
+        color: #D898A4;
+
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFF0F3;
+  border: 1px solid #D898A4;
+  
+}
+
+.topnav a {
+  float: left; 
+  display: block;
+  color: #D898A4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+* {
+  box-sizing: border-box;
+
+}
+
+
+article {
+  float: center;
+  padding: 10px;
+  width: 95%;
+  background-color: white;
+  height: 700px; 
+  text-align: center;
+  border: 5px solid #D898A4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.grid-container {
+  display: grid;
+  border-radius: 20px;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+
+
+.emailscolumn {
+  position: absolute;
+  width: 13.2%;
+  height: 200px; 
+  top: 683px;
+  left: 600px;
+  padding: 100px;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.wall1column {
+  margin-top: 25px;
+  width: 300px;
+  height: 190px;
+}
+.wall2column {
+  width: auto;
+  height: auto;
+  flex: 45%;
+  padding: 4px;
+}
+.wall3column {
+  top: 900px;
+  left: 598px;
+  flex: 45%;
+  height: 200px;
+}
+
+
+
+
+h4 {
+  background-color: #D898A4;
+    margin-top: 4px;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    height: 205px;
+    top: 675px;
+    left: 1100px;
+    padding: 45px;
+    text-align: center;
+    border: 3px solid white;
+    font-size: 20px;
+}
+
+h5 {
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  font-family: monospace;
+  padding-top: 50px;
+  background-color: #D898A4;
+  color: white;
+  width: 300px;
+  height: 210px;
+  text-align: center;
+  border: 5px solid white;
+  font-size: 20px;
+  font-family: inherit;
+}
+
+h3 {
+  background-color: #D898A4;
+  margin-top: 24px;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+  height: 205px;
+  top: 685px;
+  left: 1100px;
+  padding: 40px;
+  text-align: center;
+  border: 3px solid white;
+  font-size: 20px;
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999; /* so that it stays on top of all other elements */
+}
+
+
+
+
+
+
+

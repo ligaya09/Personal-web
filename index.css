@@ -1,0 +1,212 @@
+body {
+  display: block;
+  margin: auto;
+}
+
+.footer {
+  background-color: #FFF0F3;
+  padding: 1%;
+  border: 1px solid #D898A4;
+  text-align: center;
+  font-family: 'perpetua', serif;
+  color: #D898A4;
+}
+
+.footer p {
+  font-size: 5.3vw; /* Adjust font size using viewport width (vw) units */
+}
+
+@media screen and (max-width: 600px) {
+  .footer p {
+    font-size: 5vw; /* Adjust font size for smaller screens */
+  }
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between; /* Change to space-between for better responsiveness */
+  align-items: center;
+  overflow: hidden;
+  background-color: #FFF0F3;
+  border: 1px solid #D898A4;
+  padding: 10px -29px; /* Adjust padding for space around navigation links */
+}
+
+.topnav a {
+  color: #D898A4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-right: 10px; /* Adjust margin between navigation links */
+}
+
+.topnav a:last-child {
+  margin-right: 0; /* Remove margin for the last navigation link */
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.logout-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push the logout link to the right */
+}
+
+.username {
+  margin-right: 10px; /* Adjust margin between the username and logout button */
+}
+
+.btn-btn-warning {
+  background-color: #FFF0F3;
+  border: none;
+  color: #D898A4; /* Change text color of logout button */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1vw; /* Adjust font size of logout button using viewport width (vw) units */
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .topnav {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: flex-start; /* Align items to the start for smaller screens */
+  }
+
+  .logout-container {
+    margin-right: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .username {
+    margin-right: 0; /* Remove margin between the username and logout button for smaller screens */
+    margin-bottom: 10px; /* Add margin below username for smaller screens */
+  }
+
+  .btn-btn-warning {
+    font-size: 3.5vw; /* Adjust font size of logout button for smaller screens using viewport width (vw) units */
+  }
+}
+
+.content {
+  background-image: url('joy1.jpg');
+  background-repeat: no-repeat;	
+  background-size: 1900px, 130px, auto;; 
+  margin-top:20px auto;
+  max-width: auto;
+  padding: 170px;
+  background-position: center;
+  height: 500px;
+}
+
+.content h1 {
+  font-size: 5vw; /* Adjust font size using viewport width (vw) units */
+}
+
+.content h4 {
+  font-size: 2.1vw; /* Adjust font size using viewport width (vw) units */
+}
+
+.content h3 {
+  font-size: 2vw; /* Adjust font size using viewport width (vw) units */
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    padding-left: 50px; /* Adjust left padding for smaller screens */
+  }
+
+  .content h1 {
+    font-size: 6vw; /* Adjust font size for smaller screens */
+  }
+
+  .content h4 {
+    font-size: 4vw; /* Adjust font size for smaller screens */
+  }
+
+  .content h3 {
+    font-size: 3vw; /* Adjust font size for smaller screens */
+  }
+
+  .container_comment {
+    width: 100%; /* Make the container full width for smaller screens */
+  }
+
+  .container_comment .col-md-8 {
+    width: 100%; /* Make the column full width for smaller screens */
+  }
+
+  .container_comment form {
+    max-width: 100%; /* Make the form responsive */
+  }
+
+  .container_comment textarea {
+    width: 350px; /* Make the textarea full width for smaller screens */
+    font-size: 3vw; /* Adjust font size for smaller screens */
+  }
+
+  .container_comment .btn_submit {
+    width: 100%; /* Make the submit button full width for smaller screens */
+    font-size: 3vw; /* Adjust font size for smaller screens */
+  }
+}
+
+h1 {
+  color: #D898A4;
+  font-size: 100px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  padding: -25px;
+  padding-top: -25px;
+  padding-bottom: 0px;
+  display: block;
+  margin-block-start: 0.10em;
+}
+
+h4 {
+  padding-top: -15px;
+  margin: auto;
+  width: 110%;
+  font-size: 40px;
+}
+
+h3 {
+  color: black;
+  font-size: 40px;
+}
+
+.button {
+  background-color: #D898A4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a.five:link {
+  color: #FFF0F3;
+  text-decoration: none;
+}
+
+a.five:visited {
+  color: #FFF0F3;
+  text-decoration: none;
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
+}
